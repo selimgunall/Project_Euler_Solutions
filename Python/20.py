@@ -1,6 +1,6 @@
-# Short Question Description: !!!
+# Short Question Description: Find the sum of the digits in the number 100!
 # Author: @SelimGunal
-# Finished on !!!
+# Finished on 26.06.2023
 def generateFactioral(number):
     sum = 1
     for i in range(number, 0, -1):

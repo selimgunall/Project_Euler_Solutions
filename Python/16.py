@@ -1,6 +1,6 @@
-# finished# Short Question Description: !!!
+# finished# Short Question Description: What is the sum of the digits of the number 2 ** 1000
 # # Author: @SelimGunal
-# # Finished on !!!
+# # Finished on 25.06.2023
 
 theNumber = str(2 ** 1000)
 

@@ -1,6 +1,6 @@
-# Short Question Description: !!!
+# Short Question Description: Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
 # Author: @SelimGunal
-# Finished on !!!
+# Finished on 22.06.2023
 numbers = """
 37107287533902102798797998220837590246510135740250
 46376937677490009712648124896970078050417018260538

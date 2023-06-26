@@ -1,6 +1,7 @@
-# Short Question Description: !!!
+# Short Question Description: How many such routes are there through a 20 x 20 grid?
 # Author: @SelimGunal
-# Finished on !!!
+# Finished on 24.06.2023
+
 # https://www.youtube.com/watch?v=wc1hZpDPQFA
 # https://stemhash.com/counting-lattice-paths/
 # n choose k

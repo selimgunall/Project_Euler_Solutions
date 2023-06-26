@@ -1,6 +1,7 @@
-# Short Question Description: !!!
+# Short Question Description: Which starting number, under one million, produces the longest chain?
+# https://projecteuler.net/problem=14
 # Author: @SelimGunal
-# Finished on !!!
+# Finished on 23.06.2023
 counter = 0
 biggestCounter = 0
 for y in range(1, 1000000 + 1):
