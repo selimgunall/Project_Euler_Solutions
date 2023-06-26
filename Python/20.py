@@ -1,3 +1,6 @@
+# Short Question Description: !!!
+# Author: @SelimGunal
+# Finished on !!!
 def generateFactioral(number):
     sum = 1
     for i in range(number, 0, -1):

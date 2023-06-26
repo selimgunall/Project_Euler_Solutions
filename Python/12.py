@@ -1,3 +1,6 @@
+# Short Question Description: !!!
+# Author: @SelimGunal
+# Finished on !!!
 #https://www.mathsisfun.com/algebra/triangular-numbers.html
 #The logic is you sum all numberzs to a end point like if we give 4th triangle as an example 1 + 2 + 3 + 4 = 10
 

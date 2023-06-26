@@ -1,3 +1,6 @@
+# Short Question Description: !!!
+# Author: @SelimGunal
+# Finished on !!!
 counter = 0
 biggestCounter = 0
 for y in range(1, 1000000 + 1):

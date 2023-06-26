@@ -1,3 +1,6 @@
+# Short Question Description: !!!
+# Author: @SelimGunal
+# Finished on !!!
 import math
 theNumber = 600851475143
 numbersCanDevide = []

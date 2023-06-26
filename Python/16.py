@@ -1,4 +1,6 @@
-# finished
+# finished# Short Question Description: !!!
+# # Author: @SelimGunal
+# # Finished on !!!
 
 theNumber = str(2 ** 1000)
 

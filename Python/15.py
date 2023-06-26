@@ -1,3 +1,6 @@
+# Short Question Description: !!!
+# Author: @SelimGunal
+# Finished on !!!
 # https://www.youtube.com/watch?v=wc1hZpDPQFA
 # https://stemhash.com/counting-lattice-paths/
 # n choose k

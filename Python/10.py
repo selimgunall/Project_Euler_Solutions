@@ -1,3 +1,6 @@
+# Short Question Description: !!!
+# Author: @SelimGunal
+# Finished on !!!
 whatNumber = 2
 primeNumbersList = []
 indicator = 0
