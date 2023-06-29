@@ -1,5 +1,4 @@
 # Short Question Description: Evaluate the sum of all the amicable numbers under 10000.
-# .
 # Author: @SelimGunal
 # Finished on 29.06.2023
 
