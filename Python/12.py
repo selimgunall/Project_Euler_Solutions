@@ -1,6 +1,6 @@
 # Short Question Description: What is the value of the first triangle number to have over five hundred divisors?
 # Author: @SelimGunal
-# Finished on 21.06.2023
+# tried on 21.06.2023
 #https://www.mathsisfun.com/algebra/triangular-numbers.html
 #The logic is you sum all numberzs to a end point like if we give 4th triangle as an example 1 + 2 + 3 + 4 = 10
 
