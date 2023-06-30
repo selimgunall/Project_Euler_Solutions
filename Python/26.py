@@ -7,6 +7,6 @@ devir = "123123123"
 for i in range(0, len(devir)):
 
     for x in range(i, len(devir)):
-
+        pass
 
 print(currentCycle)
