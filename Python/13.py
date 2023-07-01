@@ -104,19 +104,9 @@ numbers = """
 53503534226472524250874054075591789781264330331690
 """
 
-listNumbers = []
-number = ""
-for x in range(1, len(numbers)-1):
-    if(numbers[x] == "\n"):
-        listNumbers.append(int(number))
-        number = ""
-    else:
-        number = number + numbers[x]
-listNumbers.append(int(number))
-
 sum = 0
-for i in range(0, len(listNumbers)):
-    sum = sum + listNumbers[i]
+for i in range(1, len(numbers), 51):
+    sum += int(numbers[i:i+50])
 
 print(str(sum)[0:10])
 
