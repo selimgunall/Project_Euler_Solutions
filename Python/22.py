@@ -19,5 +19,5 @@ for i in range(0, len(names)):
     total = total + (sum * where)
 
 print(total)
-
+# output: 871198282
 

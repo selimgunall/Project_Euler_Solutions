@@ -10,5 +10,4 @@ for i in range(0, len(theNumber)):
 
 print(sum)
 
-
-
+# output: 1366

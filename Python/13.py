@@ -119,3 +119,5 @@ for i in range(0, len(listNumbers)):
     sum = sum + listNumbers[i]
 
 print(str(sum)[0:10])
+
+# output: 5537376230

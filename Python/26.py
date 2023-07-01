@@ -22,4 +22,3 @@ for i in range(0, len(devir)):
             round = round + 1
 
 print(biggestDevir)
-

@@ -24,3 +24,5 @@ for i in range(1, 10000):
             sum = sum + i + x
 
 print(sum)
+
+# output: 31626

@@ -24,4 +24,4 @@ factX = makeFact(x)
 result = factY / (y_minus_x_fact * factX)
 print(result)
 
-
+# output: 137846528820
