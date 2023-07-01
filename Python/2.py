@@ -7,25 +7,11 @@
 
 x = 1
 y = 2
-z = 0
-u = 0
-sumOfNumbersCanDevideTwo = 0
+sum = 0
 
-#This while loop will give us a chance to get our numbers smaller than 4 million
-while (x < 4000000 and y < 4000000 and z < 4000000 and u < 4000000):
-    z = x + y
-    if (z % 2 == 0):
-        sumOfNumbersCanDevideTwo = sumOfNumbersCanDevideTwo + z
-    u = y + z
-    if (u % 2 == 0):
-        sumOfNumbersCanDevideTwo = sumOfNumbersCanDevideTwo + u
-    x = z + u
-    if (x % 2 == 0):
-        sumOfNumbersCanDevideTwo = sumOfNumbersCanDevideTwo + x
-    y = u + x
-    if (y % 2 == 0):
-        sumOfNumbersCanDevideTwo = sumOfNumbersCanDevideTwo + y
+while x < 4000000 and y < 4000000:
+    if x % 2 == 0:
+        sum += x
 
-#We've added two because at first we've started with 3 three
-print(sumOfNumbersCanDevideTwo + 2)
+print(sum)
 #The result is 4613732
