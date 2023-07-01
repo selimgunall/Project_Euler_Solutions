@@ -4,9 +4,22 @@
 
 devir = "123123123"
 
+biggestDevir = ""
+text = devir[0]
 for i in range(0, len(devir)):
+    if text[0] == devir[i]:
+        round = 0
+        count = 0
+        for x in range(i, len(devir)):
+            if round == len(text):
+                if round > len(biggestDevir):
+                    biggestDevir = text
+                break
 
-    for x in range(i, len(devir)):
-        pass
+            if text[round] == devir[x]:
+                count += 1
 
-print(currentCycle)
+            round = round + 1
+
+print(biggestDevir)
+
