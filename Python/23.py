@@ -30,6 +30,8 @@ print("gecti")
 sumOfTwo.sort()
 
 result = 0
-for i in range(0, len(sumOfTwo)):
+for i in range(0, 28123):
     if not(i in sumOfTwo):
         result += i
+
+print(result)
