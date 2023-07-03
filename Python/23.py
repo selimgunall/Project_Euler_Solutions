@@ -26,6 +26,7 @@ for i in range(0, len(abundant)):
     for x in range(i, len(abundant)):
         sumOfTwo.append(i+x)
 
+print("gecti")
 sumOfTwo.sort()
 
 result = 0
