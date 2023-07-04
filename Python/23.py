@@ -1,3 +1,6 @@
+# Short Question Description: Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers.
+# Author: @SelimGunal
+# Finished on 04.07.2023
 
 perfect = []
 abundant = []
@@ -20,7 +23,7 @@ for i in range(1, 28123):
     sumNumbers[i] = i
     sumNumbers
 
-print("basladi")
+# print("basladi")
 
 # sum 28122 den kucuk oldugu surece while dongusu yap
 # for i in range(0, len(abundant)):
@@ -40,19 +43,12 @@ while i < len(abundant):
         sum = abundant[i] + abundant[x]
         sumNumbers[sum] = 0
         x += 1
-
-    print(sumNumbers[i + 1])
-
-
     i += 1
 
+# for i in range(1, 28123):
+#     print(sumNumbers[i])
 
-
-for i in range(1, 28123):
-    print(sumNumbers[i])
-
-print("bitti")
-
+# print("bitti")
 
 sum = 0
 for i in range(1, 28123):
