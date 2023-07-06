@@ -1,3 +1,6 @@
+# Short Question Description: Find the sum of all numbers which are equal to the sum of the factorial of their digits.
+# Author: @SelimGunal
+# Finished on 06.07.2023
 
 result = 0
 for z in range(3, 200000):
