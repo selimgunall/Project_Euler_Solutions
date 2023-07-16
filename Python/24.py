@@ -19,7 +19,7 @@ def permutation(theString, fixed, remain):
 
 
     if remain == 0:
-        numbers.append(theString)
+        numbers.append("".join(theString))
         return None
 
     for i in range(fixed, len(theString)):
@@ -30,5 +30,7 @@ def permutation(theString, fixed, remain):
         permutation(cacheString, fixed, remain)
 
 
-
 permutation(theString, fixed, remain)
+
+numbers.sort()
+print(numbers[999999])
