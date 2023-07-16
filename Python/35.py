@@ -1,8 +1,10 @@
-import math
 
 # Short Question Description: !!!
 # Author: @SelimGunal
 # Finished on !!!
+
+import math
+
 whatNumber = 2
 primeNumbersList = []
 indicator = 0
