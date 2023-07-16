@@ -1,15 +1,21 @@
 import math
 
-for x in range(0, 1000000):
+# Short Question Description: !!!
+# Author: @SelimGunal
+# Finished on !!!
+whatNumber = 2
+primeNumbersList = []
+indicator = 0
 
-    i = 1
-
-    isPrime = True
-
-    while isPrime == True and i < math.sqrt(x):
-        if x % i == 0:
-            isPrime = False
-        i += 1
-
-    if isPrime == True:
-        print(x)
+while whatNumber < 1000000:
+    for x in range (2 ,int(math.sqrt(whatNumber))+1):
+        indicator = 0
+        if (whatNumber % x == 0):
+            indicator = 1
+            break
+    if (indicator == 0):
+        primeNumbersList.append(whatNumber)
+        print(whatNumber)
+    whatNumber = whatNumber + 1
+# print(primeNumbersList)
+#The result is
