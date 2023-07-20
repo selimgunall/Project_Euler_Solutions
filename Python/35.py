@@ -22,6 +22,23 @@ while (whatNumber < 2000000):
 
 # sayilari bir birim sola kaydir
 
-result = 0
+print("bitti")
+
+for i in range(0, len(primeNumbersList)):
+    theNumber = []
+    strNumber = str(primeNumbersList[i])
+    for x in range(len(strNumber)-1, -1, -1):
+        theNumber.insert(0, strNumber[x])
+
+
+    tempList = theNumber[:]
+
+
+
+
+
+
+
+
 
 #The result is
