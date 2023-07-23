@@ -1,18 +1,21 @@
+# Short Question Description: Find the sum of the only eleven primes that are both truncatable from left to right and right to left.
+# Author: @SelimGunal
+# Finished on 23.07.2023
 
 import math
 
 def isPrime(whatNumber):
-    # while ile yap
-    for x in range(2, int(math.sqrt(whatNumber))+1):
-        indicator = 0
-        if whatNumber % x == 0:
+    x = 2
+    while x <= int(math.sqrt(whatNumber)) + 1:
+        if (whatNumber % x == 0 and whatNumber != 2) or whatNumber == 1:
             return 0
+        x += 1
     return 1
 
 result = 0
 whatNumber = 8
 truncatable = 0
-while truncatable <= 11:
+while truncatable < 11:
 
     if isPrime(whatNumber):
         strCurrentN = str(whatNumber)
@@ -34,8 +37,8 @@ while truncatable <= 11:
         if isTruncatable:
             truncatable += 1
             result += whatNumber
-            print(whatNumber)
 
     whatNumber = whatNumber + 1
 
+# expected answer 748317
 print(result)

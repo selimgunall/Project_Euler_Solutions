@@ -2,12 +2,12 @@
 import math
 
 def isPrime(whatNumber):
-    # while ile yap
-    for x in range(2, int(math.sqrt(whatNumber))+1):
-        print()
-        indicator = 0
-        if whatNumber % x == 0 or whatNumber == 1:
+
+    x = 2
+    while x <= int(math.sqrt(whatNumber))+1:
+        if (whatNumber % x == 0 and whatNumber != 2) or whatNumber == 1:
             return 0
+        x += 1
     return 1
 
-print(isPrime(1))
+print(isPrime(3))
