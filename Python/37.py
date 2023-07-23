@@ -8,10 +8,10 @@ def isPrime(whatNumber):
             return 0
     return 1
 
-
+result = 0
 whatNumber = 8
 truncatable = 0
-while truncatable <= 11:
+while truncatable <= 15:
 
     if isPrime(whatNumber):
         strCurrentN = str(whatNumber)
@@ -30,9 +30,14 @@ while truncatable <= 11:
             if not(isPrime(intListR)) or not(isPrime(intList)):
                 isTruncatable = False
 
-
         if isTruncatable:
             truncatable += 1
+            result += whatNumber
+            print(whatNumber)
 
+        else:
+            pass
 
     whatNumber = whatNumber + 1
+
+print(result)
