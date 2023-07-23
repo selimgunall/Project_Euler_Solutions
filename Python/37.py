@@ -2,6 +2,7 @@
 import math
 
 def isPrime(whatNumber):
+    # while ile yap
     for x in range(2, int(math.sqrt(whatNumber))+1):
         indicator = 0
         if whatNumber % x == 0:
@@ -11,7 +12,7 @@ def isPrime(whatNumber):
 result = 0
 whatNumber = 8
 truncatable = 0
-while truncatable <= 15:
+while truncatable <= 11:
 
     if isPrime(whatNumber):
         strCurrentN = str(whatNumber)
@@ -34,9 +35,6 @@ while truncatable <= 15:
             truncatable += 1
             result += whatNumber
             print(whatNumber)
-
-        else:
-            pass
 
     whatNumber = whatNumber + 1
 
