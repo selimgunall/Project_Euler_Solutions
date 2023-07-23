@@ -15,15 +15,14 @@ while truncatable <= 11:
 
     if isPrime(whatNumber) == 0:
         strCurrentN = str(whatNumber)
+        lenStrCurrentN = len(strCurrentN)
 
         truncatableListR = []
+        truncatableList = []
         for z in range(len(strCurrentN)-1, -1, -1):
             truncatableListR.insert(0, strCurrentN[z])
+            truncatableList.append(strCurrentN[lenStrCurrentN-z-1])
 
 
-
-        truncatableList = []
-        for a in range(0, len(strCurrentN)):
-            truncatableList.append(strCurrentN[a])
 
     whatNumber = whatNumber + 1
