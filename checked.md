@@ -1,3 +1,3 @@
-1 checke
+1 checked
 <br>
 2 checked
