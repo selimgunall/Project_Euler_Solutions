@@ -7,12 +7,26 @@
 
 # For which value of p <= 1000, is the number of solutions maximised?
 
-
+import math
 p = 1
 
+# question wants perimeter to maximum to be 1000
 while p <= 1000:
+    currentSolutionN = 0
 
+    # a length side
+    for a in range(1, p):
+        # b length side this goes until p-a+1 because for example p=1000 and a = 998 so b must maximum be 2
+        for b in range(1, p - a + 1):
 
+            sqrtAandB = math.sqrt(a**2 + b**2)
+
+            # this gives us c
+            pMinusAandB = p - a - b
+
+            # in this if loop we are going to try if sqrt of (p - (a + b)) equals c
+            if sqrtAandB == pMinusAandB:
+                currentSolutionN += 1
 
     p += 1
 
