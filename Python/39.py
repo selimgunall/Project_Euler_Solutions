@@ -39,4 +39,5 @@ while p <= 1000:
 
     p += 1
 
+# expected print is 840 in about 30 seconds
 print(biggestP)
