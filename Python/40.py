@@ -1,6 +1,10 @@
 # first create the number than find all the d1 * d10
 # d represents the digit for eg 23456 what is d3 = 4
 
+# Short Question Description: https://projecteuler.net/problem=40
+# Author: @SelimGunal
+# Finished on 25.07.2023
+
 theString = ""
 i = 1
 # this thile loop creates string that combines i for eg i is "4" and the string is "123" it makes "1234"
