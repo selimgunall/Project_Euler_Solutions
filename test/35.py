@@ -4,6 +4,12 @@ cache = number[0]
 number.pop(0)
 number.append(cache)
 
+
+print(number)
+
+
+
+
 import math
 
 def isPrime(number):

@@ -24,29 +24,28 @@ def isPrime(number):
 
 # it slides the list bor eg. from 197 to 971
 def slideList(theNumber):
-    listNumber = list(str(theNumber))
+    listNumber = list(theNumber)
     cache = listNumber[0]
     listNumber.pop(0)
     listNumber.append(cache)
-    return int("".join(listNumber))
+    return "".join(listNumber)
 
 circularPrimeList = []
 
 for i in range(2, 1000000):
     if isPrime(i):
         isCircularPrime = True
-        print(i)
 
-        slided = i
+        slided = str(i)
         for z in range(0, len(str(i)) - 1):
             slided = slideList(slided)
-            # print(i,slided)
-
-        print()
+            if not(isPrime(int(slided))):
+                isCircularPrime = False
+                break
 
         if isCircularPrime:
             circularPrimeList.append(i)
 
-print(circularPrimeList[:10000])
+print(len(circularPrimeList))
 
 
