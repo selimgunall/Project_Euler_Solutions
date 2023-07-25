@@ -16,19 +16,37 @@ import math
 
 # this function checks if provided number is prime
 def isPrime(number):
-    for divisor in range (int(math.sqrt(number))+1, 1):
-        if number % divisor == 0:
-            return 0
-    return 1
+    for divisor in range (int(math.sqrt(number)) + 1, 1, -1):
+        if number % divisor == 0 and number != 2:
+            return False
+    return True
 
 
 # it slides the list bor eg. from 197 to 971
 def slideList(theNumber):
-    cache = theNumber[0]
-    theNumber.pop(0)
-    theNumber.append(cache)
+    listNumber = list(str(theNumber))
+    cache = listNumber[0]
+    listNumber.pop(0)
+    listNumber.append(cache)
+    return int("".join(listNumber))
 
+circularPrimeList = []
 
 for i in range(2, 1000000):
     if isPrime(i):
-        pass
+        isCircularPrime = True
+        print(i)
+
+        slided = i
+        for z in range(0, len(str(i)) - 1):
+            slided = slideList(slided)
+            # print(i,slided)
+
+        print()
+
+        if isCircularPrime:
+            circularPrimeList.append(i)
+
+print(circularPrimeList[:10000])
+
+
