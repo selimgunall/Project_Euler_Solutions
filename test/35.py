@@ -1,16 +1,8 @@
+number = [1,9,7]
 
-number = 32250
+cache = number[0]
+number.pop(0)
+number.append(cache)
 
-ones = number % 10
-print(ones)
-
-tens = (number % 100) // 10
-print(tens)
-
-hundreds = (number % 1000) // 100
-print(hundreds)
-
-thousand = number // 1
 print(number)
 
-# tenThousand =
