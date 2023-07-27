@@ -12,18 +12,21 @@ def isPentagonal(number):
         return True
     return False
 
-pentagonalK = 1
+def generatePentagonal(n):
+    return (n * (3 * n - 1)) // 2
+
+n = 1
 pentagonalNumbers = []
 loop = True
 while loop:
-    if isPentagonal(pentagonalK):
-        pentagonalNumbers.append(pentagonalK)
-
-        for x in range(0, len(pentagonalNumbers) - 1):
-            if isPentagonal(pentagonalK - pentagonalNumbers[x]) and isPentagonal(pentagonalK + pentagonalNumbers[x]):
-                result = pentagonalK - pentagonalNumbers[x]
+    currentPentagonal = generatePentagonal(n)
+    for i in range(0, len(pentagonalNumbers)):
+        if isPentagonal(currentPentagonal - pentagonalNumbers[i]):
+            if isPentagonal(currentPentagonal + pentagonalNumbers[i]):
+                print(currentPentagonal - pentagonalNumbers[i])
                 loop = False
 
-    pentagonalK += 1
+    pentagonalNumbers.append(currentPentagonal)
+    n += 1
 
 print(result)
