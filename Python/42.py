@@ -12,9 +12,9 @@ alphabet = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q",
 def isTrangleWord(word):
     sum = 0
     # this for loop finds the words value see https://projecteuler.net/problem=42
-    for i in range(0, len(word)):
+    for j in range(0, len(word)):
         for x in range(0, len(alphabet)):
-            if alphabet[x] == word[i]:
+            if alphabet[x] == word[j]:
                 sum += x + 1
 
     # it generates the first triangle number for the while loop
@@ -36,8 +36,8 @@ def generateTriangleNumber(n):
 
 result = 0
 # this for loop just goes all the words in the list
-for i in range(0, len(names)):
-    if isTrangleWord(names[i]):
+for k in range(0, len(names)):
+    if isTrangleWord(names[k]):
         result += 1
 
 # expected result "162"
