@@ -24,6 +24,6 @@
 <br>
 13 checked
 <br>
-14 checked delete comments
+14 checked
 <br>
 15 checked
