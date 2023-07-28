@@ -2,6 +2,7 @@
 # https://projecteuler.net/problem=14
 # Author: @SelimGunal
 # Finished on 23.06.2023
+
 counter = 0
 biggestCounter = 0
 for y in range(1, 1000000 + 1):
@@ -23,13 +24,5 @@ for y in range(1, 1000000 + 1):
 
 print(biggest)
 print("finished")
-
-# x = 5
-# while (x != 1):
-#     if((x % 2) == 0):
-#         x = x / 2
-#     else:
-#         x = (3 * x) + 1
-#     print(x)
 
 # output: 837799
