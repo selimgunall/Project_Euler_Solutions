@@ -23,11 +23,12 @@ def isPrime(number):
             return False
     return True
 
-i = 8000000
-while True:
-    if isPrime(i):
-        if isPandigital(i):
-            print(i)
-    i -= 1
+numbersArray = []
+for i in range(1, 10000000):
+    if isPrime(i) and isPandigital(i):
+            numbersArray.append(i)
+
+numbersArray.sort(reverse=True)
+print(numbersArray[0])
 
 # expected answer 7652413
