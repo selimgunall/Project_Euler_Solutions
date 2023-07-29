@@ -22,7 +22,7 @@ pentagonalNumbers = []
 hexagonalNumbers = []
 
 loop = True
-n = 1
+n = 284
 # this while loop generates the numbers by n and then creates the numbers
 # checks if current triangle number in other list it runs like this because for example you are at n = 285 that mean you have already found P156 and H143 already added to the list
 while loop:
